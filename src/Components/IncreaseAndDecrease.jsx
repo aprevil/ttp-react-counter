@@ -4,12 +4,14 @@ class IncreaseAndDecrease extends Component{
     constructor(props){
         super(props);
         this.state = {
-            number: 0
+            number: this.props.number
         };
+
     
         this.increase = this.increase.bind(this);
         this.decrease = this.decrease.bind(this);
     }
+
   
     increase(){
         this.state.number++;

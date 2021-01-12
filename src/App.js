@@ -5,7 +5,7 @@ import IncreaseAndDecrease from './Components/IncreaseAndDecrease';
 function App() {
   return (
     <div className="App">
-    <IncreaseAndDecrease number="5"/>
+    <IncreaseAndDecrease number="5" yo = "hello"/>
     </div>
   );
 }
